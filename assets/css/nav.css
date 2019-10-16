@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', serif;
+	background-color: #F2F2F2;
+}
+#header{
+	padding: 10px 40px;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	display: inline;
+}
+#header img{
+	display: inline-block;
+	float: left;
+}
+#header #navigation a {
+	text-decoration: none;
+	color: black;
+}
+#header #navigation a:hover{
+	color: rgba(0,0,0,.7);
+}
+#navigation ul li {
+	display: inline;
+	float: left;
+	padding: 8px;
+	margin-left: 20px;
+}
