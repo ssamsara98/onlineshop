@@ -7,6 +7,9 @@ body{
 	font-family: 'Poppins', serif;
 	background-color: #F2F2F2;
 }
+
+/* Header */
+
 #header{
 	padding: 10px 40px;
 	background-color: white;
@@ -48,3 +51,36 @@ body{
 	border-radius: .2rem;
 }
 
+/* Footer */
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.text-white {
+	color: snow;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.footer {
+	height: 100px;
+	padding: 30px 50px;
+	margin: 10px 0;
+	/*border: 2px black;
+	border-top: double;
+	border-bottom: double;*/
+	box-shadow: 0px -5px 5px rgba(136, 136, 136, 0.5);
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
